@@ -1,5 +1,6 @@
 <?php 
 require_once('CekResiJne.php');
 
-$cekResiJne = new CekResiJne('020040091880021');
+// Input your delivery receipt number here
+$cekResiJne = new CekResiJne('TJR1023645846835');
 echo json_encode($cekResiJne->getAllData());
